@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/info" />
+        <item
+            android:id="@+id/nav_cause"
+            android:icon="@mipmap/jjsj_foreground"
+            android:title="@string/causes" />
+        <item
+            android:id="@+id/nav_symptoms"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_symptoms" />
+        <item
+            android:id="@+id/nav_prevention"
+            android:icon="@mipmap/tick_foreground"
+            android:title="@string/prevention" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/updates" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_helpline"
+                android:icon="@android:drawable/sym_action_call"
+                android:title="@string/call_helpline" />
+        </menu>
+    </item>
+
+</menu>
